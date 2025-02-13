@@ -1,3 +1,7 @@
+/*
+String searching algorithms The Rabin-Karp algorithm function
+*/
+
 const rabinKarp = (text, pattern) => {
     const d = 256; // Number of characters in the input alphabet
     const q = 101; // A prime number to use for hashing (can be increased for larger inputs)
